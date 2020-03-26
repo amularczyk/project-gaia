@@ -9,11 +9,12 @@ import Tile07 from './tile07';
 import Tile08 from './tile08';
 import Tile09 from './tile09';
 import Tile10 from './tile10';
+import './board.css';
 
 class Board extends React.Component {   
     render() {
         return (
-            <div>
+            <div className="board">
                 <div>
                     <Tile10 />
                     <Tile01 />

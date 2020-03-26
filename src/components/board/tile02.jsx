@@ -1,15 +1,13 @@
 import React from 'react';
 import Planet from './planet';
-import black from '../images/planet-black.png';
-import blue from '../images/planet-blue.png';
-import brown from '../images/planet-brown.png';
-import empty from '../images/planet-empty.png';
-import gaja from '../images/planet-gaja.png';
-import green from '../images/planet-green.png';
-import orange from '../images/planet-orange.png';
-import red from '../images/planet-red.png';
-import white from '../images/planet-white.png';
-import yellow from '../images/planet-yellow.png';
+import black from '../../images/board/planet-black.png';
+import brown from '../../images/board/planet-brown.png';
+import empty from '../../images/board/planet-empty.png';
+import gaja from '../../images/board/planet-gaja.png';
+import orange from '../../images/board/planet-orange.png';
+import red from '../../images/board/planet-red.png';
+import white from '../../images/board/planet-white.png';
+import yellow from '../../images/board/planet-yellow.png';
 
 
 class Tile02 extends React.Component {

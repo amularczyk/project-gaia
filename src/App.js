@@ -1,14 +1,18 @@
 import React from 'react';
-import Tile01 from './components/tile01';
-import Board from './components/board';
+import Board from './components/board/board';
+import PlayerBlue from './components/player-blue/player';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <Board />
+      <header>
+        
       </header>
+      <body>
+        <Board />
+        <PlayerBlue />
+      </body>
     </div>
   );
 }
