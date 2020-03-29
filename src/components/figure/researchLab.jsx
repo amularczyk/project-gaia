@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 class ResearchLab extends React.Component {
     render() {
@@ -6,6 +7,10 @@ class ResearchLab extends React.Component {
             <div className={"figure research-lab " + this.props.className}/>
         );
     }
+}
+
+ResearchLab.propTypes = {
+    className: PropTypes.string
 }
 
 export default ResearchLab;

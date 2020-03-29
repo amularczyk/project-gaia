@@ -14,41 +14,41 @@ class Tile09 extends React.Component {
         return (
             <div className="tile tile-09">
                 <div>
-                    <Planet planet={empty} className="planet planet-v-3 planet-h-1"/>
+                    <Planet planet={empty} row={8} column={3} className="planet planet-v-3 planet-h-1"/>
                 </div>
                 <div>
-                    <Planet planet={orange} className="planet planet-v-2 planet-h-2"/>
-                    <Planet planet={gaja} className="planet planet-v-4 planet-h-2"/>
+                    <Planet planet={orange} row={9} column={2} className="planet planet-v-2 planet-h-2"/>
+                    <Planet planet={gaja} row={9} column={4} className="planet planet-v-4 planet-h-2"/>
                 </div>
                 <div>
-                    <Planet planet={empty} className="planet planet-v-1 planet-h-3"/>
-                    <Planet planet={empty} className="planet planet-v-3 planet-h-3"/>
-                    <Planet planet={white} className="planet planet-v-5 planet-h-3"/>
+                    <Planet planet={empty} row={10} column={1} className="planet planet-v-1 planet-h-3"/>
+                    <Planet planet={empty} row={10} column={3} className="planet planet-v-3 planet-h-3"/>
+                    <Planet planet={white} row={10} column={5} className="planet planet-v-5 planet-h-3"/>
                 </div>
                 <div>
-                    <Planet planet={empty} className="planet planet-v-2 planet-h-4"/>
-                    <Planet planet={empty} className="planet planet-v-4 planet-h-4"/>
+                    <Planet planet={empty} row={11} column={2} className="planet planet-v-2 planet-h-4"/>
+                    <Planet planet={empty} row={11} column={4} className="planet planet-v-4 planet-h-4"/>
                 </div>
                 <div>
-                    <Planet planet={empty} className="planet planet-v-1 planet-h-5"/>
-                    <Planet planet={empty} className="planet planet-v-3 planet-h-5"/>
-                    <Planet planet={empty} className="planet planet-v-5 planet-h-5"/>
+                    <Planet planet={empty} row={12} column={1} className="planet planet-v-1 planet-h-5"/>
+                    <Planet planet={empty} row={12} column={3} className="planet planet-v-3 planet-h-5"/>
+                    <Planet planet={empty} row={12} column={5} className="planet planet-v-5 planet-h-5"/>
                 </div>
                 <div>
-                    <Planet planet={black} className="planet planet-v-2 planet-h-6"/>
-                    <Planet planet={green} className="planet planet-v-4 planet-h-6"/>
+                    <Planet planet={black} row={13} column={2} className="planet planet-v-2 planet-h-6"/>
+                    <Planet planet={green} row={13} column={4} className="planet planet-v-4 planet-h-6"/>
                 </div>
                 <div>
-                    <Planet planet={brown} className="planet planet-v-1 planet-h-7"/>
-                    <Planet planet={empty} className="planet planet-v-3 planet-h-7"/>
-                    <Planet planet={empty} className="planet planet-v-5 planet-h-7"/>
+                    <Planet planet={brown} row={14} column={1} className="planet planet-v-1 planet-h-7"/>
+                    <Planet planet={empty} row={14} column={3} className="planet planet-v-3 planet-h-7"/>
+                    <Planet planet={empty} row={14} column={5} className="planet planet-v-5 planet-h-7"/>
                 </div>
                 <div>
-                    <Planet planet={empty} className="planet planet-v-2 planet-h-8"/>
-                    <Planet planet={empty} className="planet planet-v-4 planet-h-8"/>
+                    <Planet planet={empty} row={15} column={2} className="planet planet-v-2 planet-h-8"/>
+                    <Planet planet={empty} row={15} column={4} className="planet planet-v-4 planet-h-8"/>
                 </div>
                 <div>
-                    <Planet planet={empty} className="planet planet-v-3 planet-h-9"/>
+                    <Planet planet={empty} row={16} column={3} className="planet planet-v-3 planet-h-9"/>
                 </div>
             </div>
         );
