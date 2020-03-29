@@ -1,10 +1,10 @@
 import React from 'react';
-import PlanetaryInstitute from '../figure/planetaryInstitute';
-import Academy from '../figure/academy';
-import TradingStation from '../figure/tradingStation';
-import ResearchLab from '../figure/researchLab';
-import Mine from '../figure/mine';
-import './player.css';
+import PlanetaryInstitute from '../../figure/planetaryInstitute';
+import Academy from '../../figure/academy';
+import TradingStation from '../../figure/tradingStation';
+import ResearchLab from '../../figure/researchLab';
+import Mine from '../../figure/mine';
+import './player-blue.scss';
 
 class PlayerBlue extends React.Component {
     render() {

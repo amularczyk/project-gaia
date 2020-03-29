@@ -9,7 +9,7 @@ import Tile07 from './tile07';
 import Tile08 from './tile08';
 import Tile09 from './tile09';
 import Tile10 from './tile10';
-import './board.css';
+import './board.scss';
 
 class Board extends React.Component {   
     render() {

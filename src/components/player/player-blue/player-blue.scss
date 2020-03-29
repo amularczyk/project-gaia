@@ -1,0 +1,9 @@
+@import '../player.scss';
+
+.player-blue {
+  background-image: url("../../../images/player-blue/player.jpg");
+}
+
+.player-blue .figure {
+  background-color: blue;
+}
