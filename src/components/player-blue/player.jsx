@@ -1,35 +1,40 @@
 import React from 'react';
+import PlanetaryInstitute from '../figure/planetaryInstitute';
+import Academy from '../figure/academy';
+import TradingStation from '../figure/tradingStation';
+import ResearchLab from '../figure/researchLab';
+import Mine from '../figure/mine';
 import './player.css';
 
 class PlayerBlue extends React.Component {
     render() {
         return (
-            <div className="player">
+            <div className="player player-blue">
                 <div className="row-1">
-                    <div className="Figure Planetary-Institute" />
+                    <PlanetaryInstitute className="planetary-institute-1" />
 
-                    <div className="Figure Academy Academy-1" />
-                    <div className="Figure Academy Academy-2" />
+                    <Academy className="academy-1" />
+                    <Academy className="academy-2" />
                 </div>
                 <div className="row-2">
-                    <div className="Figure Trading-Station Trading-Station-1" />
-                    <div className="Figure Trading-Station Trading-Station-2" />
-                    <div className="Figure Trading-Station Trading-Station-3" />
-                    <div className="Figure Trading-Station Trading-Station-4" />
+                    <TradingStation className="trading-station-1" />
+                    <TradingStation className="trading-station-2" />
+                    <TradingStation className="trading-station-3" />
+                    <TradingStation className="trading-station-4" />
 
-                    <div className="Figure Research-Lab Research-Lab-1" />
-                    <div className="Figure Research-Lab Research-Lab-2" />
-                    <div className="Figure Research-Lab Research-Lab-3" />
+                    <ResearchLab className="research-lab-1" />
+                    <ResearchLab className="research-lab-2" />
+                    <ResearchLab className="research-lab-3" />
                 </div>
                 <div className="row-3">
-                    <div className="Figure Mine Mine-1" />
-                    <div className="Figure Mine Mine-2" />
-                    <div className="Figure Mine Mine-3" />
-                    <div className="Figure Mine Mine-4" />
-                    <div className="Figure Mine Mine-5" />
-                    <div className="Figure Mine Mine-6" />
-                    <div className="Figure Mine Mine-7" />
-                    <div className="Figure Mine Mine-8" />
+                    <Mine className="mine-1" />
+                    <Mine className="mine-2" />
+                    <Mine className="mine-3" />
+                    <Mine className="mine-4" />
+                    <Mine className="mine-5" />
+                    <Mine className="mine-6" />
+                    <Mine className="mine-7" />
+                    <Mine className="mine-8" />
                 </div>
             </div>
         );
@@ -37,5 +42,3 @@ class PlayerBlue extends React.Component {
 }
 
 export default PlayerBlue;
-
-// Figure Mine, Trading Station, Planetary Institute, Research Lab, Academy
